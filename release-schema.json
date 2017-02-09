@@ -1,0 +1,18 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "procurementCategory": {
+          "title": "Procurement category",
+          "description": "The primary category describing the object of this contracting process from the procurementCategory codelist. ",
+          "type": [
+            "string",
+            "null"
+          ],
+          "openCodelist": false,
+          "codelist": "procurementCategory.csv"
+        }
+      }
+    }
+  }
+}
